@@ -31,10 +31,8 @@ public class Reserva {
 	
 	
 	@ManyToOne
- 
     private Hospede hospede;
 	
 	@ManyToOne
-   
     private Quarto quarto;
 }
